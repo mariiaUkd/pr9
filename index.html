@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>План занять</h1>
+        
+        <form id="todo-form">
+            <input type="text" id="task-name" placeholder="Назва завдання" required>
+            <select id="task-category">
+                <option value="Навчання">Навчання</option>
+                <option value="Робота">Робота</option>
+                <option value="Особисте">Особисте</option>
+            </select>
+            <button type="submit">Додати</button>
+        </form>
+
+        <div id="task-container">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
